@@ -36,7 +36,7 @@ unsigned long weatherStationChannelNumber = 12397;
 unsigned int temperatureFieldNumber = 4;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   WiFi.begin(ssid, pass);
   ThingSpeak.begin(client);
 }
